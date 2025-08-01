@@ -1,0 +1,29 @@
+{
+  "name": "vulnerable-test-project",
+  "version": "1.0.0",
+  "description": "Example project with vulnerable dependencies for testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "lodash": "4.17.19",
+    "express": "4.17.1",
+    "moment": "2.29.1",
+    "axios": "0.21.1"
+  },
+  "devDependencies": {
+    "jest": "27.0.0",
+    "eslint": "7.32.0"
+  },
+  "peerDependencies": {
+    "react": "17.0.2"
+  },
+  "optionalDependencies": {
+    "debug": "4.3.1"
+  },
+  "keywords": ["test", "vulnerable", "example"],
+  "author": "Test Author",
+  "license": "MIT"
+} 
