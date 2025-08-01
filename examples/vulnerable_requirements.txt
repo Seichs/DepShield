@@ -1,0 +1,17 @@
+# Example requirements.txt with known vulnerable packages
+# This file contains packages with known vulnerabilities for testing purposes
+
+# Vulnerable packages
+requests==2.25.0  # CVE-2021-33503 - SSRF vulnerability
+urllib3==1.26.0  # CVE-2021-33503 - CRLF injection
+django==3.2.0     # CVE-2021-44420 - SQL injection
+flask==2.0.0      # CVE-2021-23336 - Information disclosure
+
+# Non-vulnerable packages
+pytest>=6.0.0
+black>=21.0.0
+mypy>=0.900
+
+# Development dependencies
+pytest-cov>=2.0.0
+pytest-mock>=3.0.0 
